@@ -7,29 +7,68 @@
     <meta name="author" content="Alyssa Lahoy">
     <meta name="description"
         content="WDD 131 - Dynamic Web Fundamentals - Alyssa Lahoy - Home page for work associated with the WDD 131 course at BYU-Idaho.">
-    <title>WDD 131 - Dynamic Web Fundamentals - Your Name</title>
+    <title>WDD 131 - Dynamic Web Fundamentals - Alyssa Lahoy</title>
+
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 
 <body>
     <header>
-        <h1>WDD 131: Dynamic Web Fundamentals - Rubia M. Francesco</h1>
+        <h1>WDD 131: Dynamic Web Fundamentals - <span class="special">Alyssa Lahoy</span></h1>
 
         <nav>
-            <a href="https://www.linkedin.com/in/alyssa-lahoy-933316239/" target="_blank">LinkedIn</a>
-            <a href="https://byui.instructure.com/" target="_blank">I-Learn</a>
-            <a href="https://www.churchofjesuschrist.org/study/scriptures/nt/rom/1?lang=eng&id=p16-p17#p16"
-                target="_blank">Scripture</a>
-            <a href="#">Final Project</a>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/alyssa-lahoy-933316239/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://byui.instructure.com/" target="_blank">I-Learn</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/nt/rom/1?lang=eng&id=p16-p17#p16"
+                        target="_blank">Scripture</a></li>
+                <li><a href="#">Final Project</a></li>
+            </ul>
         </nav>
     </header>
 
     <main>
         <section class="card">
-            <h2>About Me</h2>
+            <div class="sect-head">
+                <h2>About Me</h2>
+            </div>
+            <div class="about-me">
+                <p>My name is Alyssa Lahoy, and I just go by Alyssa. I was born in the Philippines, but moved to the
+                    United States when I was really young. I now live with my family in California. I am currently
+                    working part time as an IT assistant. Outside of work, I enjoy reading, singing, and playing
+                    games
+                    (video games, board games, table-top rpgs). I also love exploring new places and experiencing
+                    new
+                    foods.<br>
+                    <br>
+                    <span class="special">Fun fact:</span> Cyberpunk 2077 is one of my favorite games, which this
+                    homepage's color scheme is based off of.
+                </p>
+                <img src="images/author-pic.jpg" alt="Image of website author">
+            </div>
+
+            <div class="philippines">
+                <figure>
+                    <img src="images/philippiine-flag.jpg" alt="Image of official Philippines flag">
+                    <figcaption><i>Official Philippines flag</i></figcaption>
+                </figure>
+                <p>The Philippines is an archipelagic country in Southeast Asia. It consists of 7,641 islands which are
+                    broadly catergorized in three main geographical divisions from north to south: Luzon, Visayas,
+                    Mindanao. Manila is the country's capital, and its most populated city is Quezon City.</p>
+            </div>
         </section>
 
         <section class="card">
-            <h2>Web Dev Resources</h2>
+            <div class="sect-head">
+                <h2>Web Dev Resources</h2>
+            </div>
+            <ul class="aside-list">
+                <li><a href="https://dev.to">Dev.to</a></li>
+                <li><a href="https://www.geeksforgeeks.org">GeeksforGeeks</a></li>
+                <li><a href="https://www.w3schools.com">W3 Schools</a></li>
+                <li><a href="https://www.udemy.com">Udemy</a></li>
+            </ul>
         </section>
     </main>
 
